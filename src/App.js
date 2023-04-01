@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import GlobalStyle from './components/GlobalStyle';
-import Home from './components/Home';
+import Web3 from './components/Web3';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
    <GlobalStyle/>
 
    <Routes>
-    <Route path="/" exact element={<Home/>}/>
+    <Route path="/" exact element={<Web3/>}/>
    </Routes>
   
    </BrowserRouter>
